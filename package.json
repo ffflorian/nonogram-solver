@@ -1,9 +1,7 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
   "bin": {
-    "my-cli": "dist/cli.js"
-  },
-  "dependencies": {
+    "nonogram-solver": "dist/cli.js"
   },
   "description": "A boilerplate for a modern™ TypeScript project.",
   "devDependencies": {
@@ -56,10 +54,10 @@
     ]
   },
   "main": "dist/index.js",
-  "name": "@ffflorian/ts-boilerplate",
+  "name": "@ffflorian/nonogram-solver",
   "prettier": "@ffflorian/prettier-config",
   "private": true,
-  "repository": "https://github.com/ffflorian/ts-boilerplate.git",
+  "repository": "https://github.com/ffflorian/nonogram-solver.git",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
@@ -76,5 +74,8 @@
     "start": "ts-node src/cli.ts",
     "test": "ts-node -P tsconfig.jasmine.json node_modules/.bin/jasmine"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "bitset": "5.0.5"
+  }
 }

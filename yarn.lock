@@ -506,6 +506,11 @@ bin-links@^1.1.2, bin-links@^1.1.6:
     npm-normalize-package-bin "^1.0.0"
     write-file-atomic "^2.3.0"
 
+bitset@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.npmjs.org/bitset/-/bitset-5.0.5.tgz#3551c3a6e48579cb00353a11a534307e8fdd15b9"
+  integrity sha512-d5Vu2PMD8BJ5KDBo8dbppo5git4dLhOenm2Sv3pbzDSKjoLOb2D6N9B4325d6KDmuMs+PNS5ZuHPvAwGO5O//w==
+
 bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -3258,7 +3263,6 @@ npm@^6.10.3:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
-    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -3273,7 +3277,6 @@ npm@^6.10.3:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.5"
     iferr "^1.0.2"
-    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -3292,14 +3295,8 @@ npm@^6.10.3:
     libnpx "^10.2.0"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
-    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
-    lodash._bindcallback "*"
-    lodash._cacheindexof "*"
-    lodash._createcache "*"
-    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
-    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
